@@ -1,4 +1,4 @@
-# Foodipy - Food Order Website
+# Foodipy - Food Order Website Designed By Haribabu.D
 
 A comprehensive and user-friendly online food order website built with React.js and Tailwind CSS.
 
@@ -19,53 +19,20 @@ A comprehensive and user-friendly online food order website built with React.js 
 - Tailwind CSS
 - Vite
 - React Icons
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Start the development server:
-```bash
-npm run dev
-```
-
-3. Open your browser and navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
+- 
 ## Project Structure
 
 ```
 src/
-├── index.jsx              # Entry point
-├── App.jsx                # Main app component with routing
-├── index.css              # Global styles
-├── components/            # Reusable components
+├── index.jsx              
+├── App.jsx               
+├── index.css            
+├── components/          
 │   ├── Navbar.jsx
 │   ├── Footer.jsx
 │   ├── ProductCard.jsx
 │   └── ProtectedRoute.jsx
-├── pages/                 # Page components
+├── pages/                
 │   ├── Home.jsx
 │   ├── Products.jsx
 │   ├── Cart.jsx
@@ -74,15 +41,15 @@ src/
 │   ├── Profile.jsx
 │   ├── Admin.jsx
 │   └── OrderConfirmation.jsx
-├── context/               # React Context providers
+├── context/             
 │   ├── AuthContext.jsx
 │   ├── CartContext.jsx
 │   └── ThemeContext.jsx
-├── data/                  # Data management
+├── data/                 
 │   └── products.js
-├── utils/                 # Utility functions
+├── utils/                
 │   └── orders.js
-└── styles/                # Custom CSS files
+└── styles/               
     ├── cart.css
     └── Product.css
 ```
@@ -93,7 +60,6 @@ To access the admin panel, register with:
 - Email: `admin@foodipy.com`
 - Any password (minimum 6 characters)
 
-## Features in Detail
 
 ### User Management
 - Secure registration and login
@@ -145,7 +111,5 @@ To access the admin panel, register with:
 - Payment processing is simulated for demonstration
 - Images use placeholder URLs from Unsplash
 
-## License
 
-This project is open source and available under the MIT License.
 
