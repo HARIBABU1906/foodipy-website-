@@ -1,0 +1,36 @@
+.product-card {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:transform hover:scale-105;
+}
+
+.product-image {
+  @apply w-full h-48 object-cover;
+}
+
+.product-info {
+  @apply p-4;
+}
+
+.product-title {
+  @apply text-xl font-semibold text-gray-900 dark:text-white mb-2;
+}
+
+.product-description {
+  @apply text-gray-600 dark:text-gray-300 text-sm mb-3 line-clamp-2;
+}
+
+.product-price {
+  @apply text-2xl font-bold text-blue-600 dark:text-blue-400 mb-3;
+}
+
+.product-actions {
+  @apply flex items-center justify-between;
+}
+
+.add-to-cart-btn {
+  @apply bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200 flex items-center space-x-2;
+}
+
+.product-badge {
+  @apply inline-block bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded-full mb-2;
+}
+

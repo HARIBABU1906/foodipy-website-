@@ -1,0 +1,28 @@
+.cart-container {
+  @apply min-h-screen py-8 px-4;
+}
+
+.cart-item {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 mb-4 transition-all duration-300;
+}
+
+.cart-item:hover {
+  @apply shadow-lg transform scale-[1.02];
+}
+
+.cart-summary {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 sticky top-4;
+}
+
+.quantity-controls {
+  @apply flex items-center space-x-3;
+}
+
+.quantity-btn {
+  @apply w-8 h-8 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-bold transition-colors duration-200 flex items-center justify-center;
+}
+
+.quantity-input {
+  @apply w-12 text-center border border-gray-300 dark:border-gray-600 rounded px-2 py-1 bg-white dark:bg-gray-700 text-gray-900 dark:text-white;
+}
+
